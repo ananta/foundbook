@@ -7,6 +7,9 @@
 <?php
 include 'css/style.css';
 ?>
+#searchs{
+    width=500px;
+}
 
 </style>
         <title>Foundbook | Home</title>
@@ -23,14 +26,13 @@ include 'css/style.css';
          <div class="container">
              <div id="branding">
                  
-                 <img src="img/foundbook.png" alt="foundbook logo">
+                 <a href="index.php"><img src="img/foundbook.png" alt="foundbook logo"></a>
              </div>
-<<<<<<< HEAD
-                 <nav class = "nav-bar">
-=======
                  <nav>
->>>>>>> f0b4bf7f6ed53539b1f36b3f1d1a7a1a514116a1
                      <ul>
+                     <li class="searchb">
+                     <input class="searchbar" type="text" name="search" placeholder="Enter Keyword for Search" id="searchs">
+                     <input class="button_1" type="submit" value="GO!" id="submits">
                          <li class ="<?php if ($page=="home"){echo "active";}else{echo"inactive";};?>"><a id="home"href="index.php">Home</a></li>
                          <li class ="<?php if ($page=="about"){echo "active";}else{echo"inactive";}?>"><a id="aboutPageId"href="about.php">About</a></li>
                          <li class ="<?php if ($page=="contact"){echo "active";}else{echo"inactive";}?>"><a href="contact.php">Contact</a></li>

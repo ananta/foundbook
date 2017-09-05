@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+=======
+>>>>>>> f0b4bf7f6ed53539b1f36b3f1d1a7a1a514116a1
 body{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 15px;
@@ -9,17 +12,27 @@ body{
     margin :0;
     background-color: #262626;
 }
+<<<<<<< HEAD
 .nav-bar{
     float:right;
 }
+=======
+>>>>>>> f0b4bf7f6ed53539b1f36b3f1d1a7a1a514116a1
 .button_1{
    
     height:38px;
     background: transparent;
+<<<<<<< HEAD
     border:1px #01E4AD solid;
     border-radius: 15px;
 margin-top: 3px;
 margin-left: 5px;
+=======
+    border:1px #00E4AD solid;
+    border-radius: 15px;
+   margin-top: 5px;
+   margin-left: 5px;
+>>>>>>> f0b4bf7f6ed53539b1f36b3f1d1a7a1a514116a1
     padding-left:20px;
     padding-right:20px;
     color:#01E4AD;
@@ -30,6 +43,10 @@ margin-left: 5px;
     transition: all 0.90s;
     background-color: #01E4AD;
     color:white;
+<<<<<<< HEAD
+=======
+    margin-top: 5px;
+>>>>>>> f0b4bf7f6ed53539b1f36b3f1d1a7a1a514116a1
 
 }
 
@@ -41,10 +58,13 @@ margin-left: 5px;
     overflow: hidden;
 
 }
+<<<<<<< HEAD
 
 .container h1{
     font-family:
 }
+=======
+>>>>>>> f0b4bf7f6ed53539b1f36b3f1d1a7a1a514116a1
 ul{
     margin: 0;
     padding:0;
@@ -53,8 +73,13 @@ ul{
 header{
     background:#262626;
     color:#ffffff;
+<<<<<<< HEAD
     padding:25px;
     min-height: 70px;
+=======
+    padding:10px;
+    min-height: 50px;
+>>>>>>> f0b4bf7f6ed53539b1f36b3f1d1a7a1a514116a1
     border-bottom:#01E4AD 4px solid;
 
 
@@ -101,15 +126,26 @@ header li{
 
 header #branding{
     float: left;
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> f0b4bf7f6ed53539b1f36b3f1d1a7a1a514116a1
 
 }
 
 header #branding img{
+<<<<<<< HEAD
     
     margin-top: 35px;
     height: 50px;
     width:300px;
+=======
+    float:left;
+    margin-top: 15px;
+    height: 50px;
+    width: 200px;
+>>>>>>> f0b4bf7f6ed53539b1f36b3f1d1a7a1a514116a1
 }
 header nav{
     float:right;
@@ -384,6 +420,35 @@ transition: all 0.5s;
     margin:auto;
     margin-bottom: 20px;
 }
+<<<<<<< HEAD
+=======
+.inputTypeSignup1{
+    border:2px gray solid;
+    width: 45%;
+    text-align:center;
+    border-radius: 10px;
+    outline: none;
+    padding:10px;
+    font-size: 20px;
+    margin:auto;
+    margin-bottom: 20px;
+}
+.searchbar{
+    border:2px gray solid;
+    width: 250px;
+    text-align:center;
+    border-radius: 10px;
+    outline: none;
+    padding:5px;
+    font-size: 20px;
+    margin:auto;
+    margin-bottom: 20px;
+}
+.searchb{
+    padding:5px;
+    padding-left: 5px;
+}
+>>>>>>> f0b4bf7f6ed53539b1f36b3f1d1a7a1a514116a1
 .inputTypeSignup:focus{
     border: 2px #01E4AD solid;
    
@@ -478,6 +543,7 @@ transition: all 0.5s;
       
    }
 
+<<<<<<< HEAD
    .container h1 {
     text-shadow: 12px;
 }
@@ -485,10 +551,17 @@ transition: all 0.5s;
        width:100%;
        padding:5px;
 
+=======
+
+  .container {
+       width:100%;
+  
+>>>>>>> f0b4bf7f6ed53539b1f36b3f1d1a7a1a514116a1
        display: block;
        
        margin: auto;
    }
+<<<<<<< HEAD
    .nav-bar ul li a{
        padding:17px;
        width:80%;
@@ -505,6 +578,14 @@ transition: all 0.5s;
        width:90%;
        margin:auto;
        padding:7px;
+=======
+   header nav {
+       width:90%;
+   }
+   header nav ul li{
+       width:100%;
+       margin:auto;
+>>>>>>> f0b4bf7f6ed53539b1f36b3f1d1a7a1a514116a1
        display: block;
 
    }
@@ -554,7 +635,11 @@ border: 2px white solid;
 }
 
 .button_1{
+<<<<<<< HEAD
     width: 10%;
+=======
+    width: 90%;
+>>>>>>> f0b4bf7f6ed53539b1f36b3f1d1a7a1a514116a1
     margin:auto;
     display: block;
 }
@@ -566,6 +651,7 @@ border: 2px white solid;
     padding:10px;
 
 }
+<<<<<<< HEAD
 .section2{
     width:100%;
 }
@@ -578,10 +664,21 @@ border: 2px white solid;
 .container2{
     padding:0px;
     width:90%;
+=======
+
+.card{
+    width:100%;
+    display: block;
+    margin: auto;
+}
+.container2{
+    width:100%;
+>>>>>>> f0b4bf7f6ed53539b1f36b3f1d1a7a1a514116a1
 }
 
 
 .container2 input[type="email"]{
+<<<<<<< HEAD
     padding:20px ;
     width: 95%;
     font-size: 30px;
@@ -589,14 +686,37 @@ border: 2px white solid;
     outline: none;
     
     border-radius: 10px;
+=======
+  border: 2px darkgray solid;
+  padding:10px ;
+  width: 100%;
+
+  border-radius: 10px;
+  outline: none;
+  text-align: center;
+  display: block;
+  margin:auto;
+  margin-bottom: 5px;
+  font-size: 10px;
+>>>>>>> f0b4bf7f6ed53539b1f36b3f1d1a7a1a514116a1
 
 }
 
 .container2 input[type="password"]{
+<<<<<<< HEAD
  
   padding:20px ;
   width: 95%;
   font-size: 30px;
+=======
+  border: 2px darkgray solid;
+  padding:10px ;
+  width: 100%;
+  font-size: 10px;
+  display: block;
+  margin: auto;
+  margin-bottom: 5px;
+>>>>>>> f0b4bf7f6ed53539b1f36b3f1d1a7a1a514116a1
   text-align: center;
   outline: none;
   
@@ -606,6 +726,7 @@ border: 2px white solid;
     display: block;
 }
 .button_4{
+<<<<<<< HEAD
    
      padding-right:20px;
      width:100%;
@@ -624,3 +745,69 @@ border: 2px white solid;
 }
 
 }
+=======
+     border: 4px #01E4AD solid;
+     padding:10px;
+     margin:auto;
+    margin-bottom: 5px;
+    
+     width:100%;
+     background-color: #01E4AD;
+     color:white;
+     outline: none;
+     display: block;
+     
+     font-size: 10px;;
+     border-radius: 10px;
+
+}
+.button_5{
+     border: 4px #FF7078 solid;
+     padding:10px;
+     margin:auto;
+    
+    
+     width:100%;
+     background-color: #FF7078;
+     color:white;
+     outline: none;
+     
+     font-size: 10px;
+     border-radius: 10px;
+
+}
+.searchbar{
+    border:2px gray solid;
+    width: 85%;
+    text-align:center;
+    border-radius: 10px;
+    outline: none;
+    padding:10px;
+    font-size: 20px;
+    margin:auto;
+    margin-bottom: 20px;
+}
+.button_1a{
+    
+     height:38px;
+     background: transparent;
+     border:1px #00E4AD solid;
+     border-radius: 15px;
+    margin-top: 5px;
+    margin-left: 5px;
+     padding-left:20px;
+     padding-right:20px;
+     color:black;
+     cursor: pointer;
+ 
+ }
+ .button_1a:hover{
+     transition: all 0.90s;
+     background-color: green;
+     color:white;
+     margin-top: 5px;
+ 
+ }
+}
+
+>>>>>>> f0b4bf7f6ed53539b1f36b3f1d1a7a1a514116a1

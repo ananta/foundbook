@@ -6,11 +6,9 @@ include "header.php";
      <section id="showcase">
         <div class= "container">
             <h1>
-                A Lost And Found Platform
+                A Lost And Found Portal
             </h1>
-
             <p>Across The World!</p><h4>Contacting the owner has never been this easy</h4>
-
         </div>
      </section>
      <section id = "loginBanner">
@@ -20,15 +18,13 @@ include "header.php";
              <form>
              <h1>It's Completely Free! You Can Signup Here</h1>
                 
-                 <button  id="signupp"class="button_1">Signup</button>
-
+                <a href="register.php"> <button  id="signupp"class="button_1">Signup</button></a>
              </form>
          </div>
      </section>
      <section id="banner">
          <div class="container">
              <div class="box">
-
                  <img class="homeBox"src="img\docicon.png" alt="Document">
                  <h3>Lost Document and belongings?</h3>
                  <p>Extremely important documents such as Citizenship, Driving License, Property paperworks, E- Cards
@@ -51,7 +47,6 @@ include "header.php";
                      be some help. </p>
              </div>
              
-
          </div>
      </section>
 <?php
