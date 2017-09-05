@@ -6,7 +6,7 @@ include "header.php";
      <section id="showcase">
         <div class= "container">
             <h1>
-                A Lost And Found Portal
+                A Lost And Found Platform
             </h1>
             <p>Across The World!</p><h4>Contacting the owner has never been this easy</h4>
         </div>
