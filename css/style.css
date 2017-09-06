@@ -13,6 +13,18 @@ body{
 .nav-bar{
     float:right;
 }
+.sucess{
+    color:green;
+    text-align: center;
+    width:80%;
+    display: block;
+    overflow: hidden;
+    margin:auto;
+    border:1px solid green;
+    border-radius: 10px;
+    background-color: lightgreen;
+    padding:10px;
+}
 .button_1{
    
     height:38px;

@@ -1,12 +1,48 @@
 <?php
+ob_start();
 require './database/db.php';
 session_start();
 $page = 'user';
-include "header.php"
-?>
-<?php
+include "header.php";
+
 $userLocation = 'register';
-include "header2.php"
+include "header2.php";
+if($_SERVER["REQUEST_METHOD"]=="POST"){
+    $firstName = trim($_POST['fName']);
+    $lastName=trim($_POST['lName']);
+    $phone=trim($_POST['phone']);
+    $email=trim($_POST['email']);
+    $password=trim($_POST['password']);
+    $location=trim($_POST['location']);
+    $gender = 'M';
+
+
+$result = $connection->query("SELECT * FROM USERS WHERE mail='$email'") or die($connection->error());
+if($result->num_rows > 0){
+    $_SESSION['message']="User Exists With Same Email Information";
+    header('location:error.php');
+}else{
+register($firstName,$lastName,$email,$password,$location,$gender,$connection);
+    
+}
+}
+function register($firstName,$lastName,$email,$password,$location,$gender, $connection){
+    $sql ="INSERT INTO USERS (first_name,last_name,mail,password,address,gender)VALUES('$firstName','$lastName','$email', '$password', '$location', '$gender') ";
+    
+    //Add user to Database
+    if($connection->query($sql) === TRUE){
+      header('location:login.php');
+      $_SESSION['signupMessage']="You Have Sucessfully Registered ".$firstName." !";
+    }else{
+      echo '<br>Registration Failed '.$connection->error;
+    }
+  
+    $connection->close();
+  }
+
+
+
+
 ?>
 
 <div class="dark">
@@ -14,7 +50,7 @@ include "header2.php"
 <div class = "card">
      <div class = "container3">
     
-    <form action = "userLogin.php" method="POST">
+    <form action = "" method="POST">
         <h1 class = "textStyle1">Welcome to Family!</h1>
         <img class = "babylogo"src="img/baby.png" alt="signup">
         <h3 class = "textStyle2">To join the Community, Please Provide the following infromation....</h3>
@@ -39,3 +75,6 @@ include "header2.php"
     </div>
 </div>
 </div>
+<?php
+include "footer.php"
+?>

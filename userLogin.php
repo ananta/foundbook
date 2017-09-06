@@ -12,12 +12,12 @@ $gender = 'M';
 
 //Check if Email Exists in Database
 
-$result = $mysqli->query("SELECT * FROM USERS WHERE mail='$email'") or die($mysqli->error());
+$result = $connection->query("SELECT * FROM USERS WHERE mail='$email'") or die($mysqli->error());
 if($result->num_rows > 0){
   $_SESSION['message']="User Exists With Same Email Information";
   header('location:error.php');
 }else{
-register($firstName,$lastName,$email,$password,$location,$gender,$mysqli);
+register($firstName,$lastName,$email,$password,$location,$gender,$connection);
  
 }
 

@@ -4,8 +4,8 @@ $host = 'localhost';
 $user = 'root';
 $pass = '';
 $db = 'foundbook';
-$mysqli = new mysqli($host,$user,$pass,$db);
-if($mysqli->connect_error){
+$connection = mysqli_connect($host,$user,$pass,$db);
+if(!$connection){
   die('Connection Failed'.$mysqli->connect_error);
 }else{
   
