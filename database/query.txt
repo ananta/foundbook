@@ -1,0 +1,11 @@
+CREATE DATABASE foundbook;
+
+CREATE TABLE USERS(
+	id INT(30) AUTO_INCREMENT PRIMARY KEY,
+	first_name VARCHAR(50) NOT NULL,
+	last_name VARCHAR(50) NOT NULL,
+	email VARCHAR(100) NOT Null,
+ 	password VARCHAR(150) NOT Null,
+   address VARCHAR(150) NOT Null,
+   gender VARCHAR(2) NOT Null
+);

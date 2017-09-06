@@ -1,4 +1,6 @@
 <?php
+require './database/db.php';
+session_start();
 $page = 'user';
 include "header.php"
 ?>
@@ -27,11 +29,8 @@ include "header2.php"
         <input class = "inputTypeSignup"type="location" name="location" value="" placeholder="Your Current Residing Location">
        <div class="btnSameLine">
         <button  type = "submit" value="Register"id="register"class="button_3">Register</button>
-<<<<<<< HEAD
-         <h1 class = "textStyle2">Already Have An Account?</h1>
-=======
+
          <h1 class = "textStyle2"> <a href="login.php">Already Have An Account?</a></h1>
->>>>>>> f0b4bf7f6ed53539b1f36b3f1d1a7a1a514116a1
          </div>
     </form>
 

@@ -6,7 +6,7 @@
 include "headersearch.php"
 ?>
 
-<style>
+<style></style>
     container{
         text-align:left;
     }

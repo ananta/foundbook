@@ -25,11 +25,9 @@ include 'css/style.css';
                  
                  <img src="img/foundbook.png" alt="foundbook logo">
              </div>
-<<<<<<< HEAD
-                 <nav class = "nav-bar">
-=======
+
                  <nav>
->>>>>>> f0b4bf7f6ed53539b1f36b3f1d1a7a1a514116a1
+
                      <ul>
                          <li class ="<?php if ($page=="home"){echo "active";}else{echo"inactive";};?>"><a id="home"href="index.php">Home</a></li>
                          <li class ="<?php if ($page=="about"){echo "active";}else{echo"inactive";}?>"><a id="aboutPageId"href="about.php">About</a></li>

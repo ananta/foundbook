@@ -1,4 +1,6 @@
 <?php
+require './database/db.php';
+session_start();
 $page = 'user';
 include "header.php"
 ?>
@@ -17,7 +19,7 @@ include "header2.php"
         <input type="password" name="password" value="" placeholder="Password">
         <div class = "btnSameLine">
          <button  type = "submit" value="Login"id="login"class="button_4">Login</button>
-         <button type="submit" value="forgot" class="button_5">Forgot Password</button>
+         <button type="submit" value="forgot" class="button_5">Forgot ?</button>
         </div>
     </form>
 
